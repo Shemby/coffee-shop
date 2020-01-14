@@ -1,9 +1,18 @@
+.nav-container {
+  position: fixed;
+  width: 80%;
+  height: 10rem;
+  top: 6%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
+
 .nav-bar {
   display: flex;
-  background-color: orangered;
-  height: 10rem;
   justify-content: flex-end;
   align-items: flex-end;
+  background-color: orangered;
+  height: 10rem;
 
   &__item {
     &,

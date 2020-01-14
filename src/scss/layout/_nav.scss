@@ -1,0 +1,21 @@
+.nav-bar {
+  display: flex;
+  background-color: orangered;
+  height: 10rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  &__item {
+    &,
+    &:link,
+    &:visited {
+      text-decoration: none;
+      font-size: 3rem;
+      margin-left: 2rem;
+      margin-bottom: 1.5rem;
+      &:last-child {
+        margin-right: 3rem;
+      }
+    }
+  }
+}

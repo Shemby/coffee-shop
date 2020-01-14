@@ -3,197 +3,28 @@ import React from "react";
 export default class Menu extends React.Component {
   render() {
     return (
-      <div className="menu__container">
+      <div className="menu">
         <h1 className="menu__heading">Menu</h1>
-        <div className="category__container">
-          <h3 className="category__heading">Coffee</h3>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
+        <div className="menu__columns">
+          <div className="menu__category">
+            <h3 className="menu__category--header">Coffee</h3>
+            <div className="menu__category--item">
+              <h4 className="menu__category--item-heading">Item $0.00</h4>
+              <p className="menu__category--item-desc">
+                This is a description detailing the item in which the consumer
+                will purchase
+              </p>
+            </div>
           </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-        </div>
-        <div className="category__container">
-          <h3 className="category__heading">Non Coffee</h3>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-        </div>
-        <div className="category__container">
-          <h3 className="category__heading">Espresso</h3>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-        </div>
-        <div className="category__container">
-          <h3 className="category__heading">Sandwiches</h3>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>This is a
-            description detailing the item in which the consumer will purchase
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-        </div>
-        <div className="category__container">
-          <h3 className="category__heading">Pastries</h3>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
-          </div>
-          <div className="category__item">
-            <h4 className="category__item--heading">Item $0.00</h4>
-            <p className="category__item--desc">
-              This is a description detailing the item in which the consumer
-              will purchase
-            </p>
+          <div className="menu__category">
+            <h3 className="menu__category--header">Coffee</h3>
+            <div className="menu__category--item">
+              <h4 className="menu__category--item-heading">Item $0.00</h4>
+              <p className="menu__category--item-desc">
+                This is a description detailing the item in which the consumer
+                will purchase
+              </p>
+            </div>
           </div>
         </div>
       </div>

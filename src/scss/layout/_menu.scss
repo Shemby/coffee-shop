@@ -1,0 +1,21 @@
+.menu {
+  background-color: $dark;
+  color: $primary;
+  border: 2px solid $tertiary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__heading {
+    font-size: 5rem;
+    text-decoration: underline $tertiary;
+  }
+  &__columns {
+    display: flex;
+    justify-items: space-between;
+  }
+  &__category {
+    display: flex;
+    flex-direction: column;
+  }
+}

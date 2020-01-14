@@ -5,17 +5,44 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 200rem;
 
   &__heading {
-    font-size: 5rem;
+    font-size: 10rem;
     text-decoration: underline $tertiary;
   }
   &__columns {
+    width: 100%;
     display: flex;
-    justify-items: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
   }
   &__category {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    width: 50%;
+    &--header {
+      font-size: 5rem;
+      text-decoration: underline $tertiary;
+    }
+    &--item {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-size: 1.2rem;
+      width: 50%;
+      &-heading {
+        color: $tertiary;
+        font-size: 2rem;
+        padding: 1.5rem 0 1.5rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 2rem;
+      }
+    }
   }
 }

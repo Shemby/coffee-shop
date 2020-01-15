@@ -1,47 +1,63 @@
 .menu {
   background-color: $dark;
   color: $primary;
-  border: 2px solid $tertiary;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 200rem;
+  height: auto;
 
   &__heading {
-    font-size: 10rem;
+    font-size: 15rem;
     text-decoration: underline $tertiary;
+    padding-bottom: 3rem;
+    font-family: "Pinyon Script", cursive;
   }
-  &__columns {
-    width: 100%;
+  .categories {
+    border: solid 2px $tertiary;
+    margin-bottom: 10rem;
+    width: 80%;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
   &__category {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 5rem;
-    width: 50%;
+    width: 100%;
+    &:last-child {
+      padding-bottom: 3rem;
+    }
     &--header {
-      font-size: 5rem;
+      font-size: 8rem;
       text-decoration: underline $tertiary;
+      padding-bottom: 3rem;
+      font-family: "Pinyon Script", cursive;
+    }
+    &--item-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 80%;
     }
     &--item {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       font-size: 1.2rem;
-      width: 50%;
+      padding-top: 2rem;
+      width: 45%;
       &-heading {
-        color: $tertiary;
+        color: $primary;
         font-size: 2rem;
-        padding: 1.5rem 0 1.5rem 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-right: 2rem;
+        padding: 0 0 1.5rem 0;
+        p {
+          color: $tertiary;
+        }
       }
     }
   }
